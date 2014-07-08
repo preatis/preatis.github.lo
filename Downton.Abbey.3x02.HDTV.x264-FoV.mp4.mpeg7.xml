@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated at 2014-07-08T05:39:37+00:00 by MediaInfoLib - v0.7.69 -->
+<mpeg7:Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-7_schema_files/mpeg7-v2.xsd">
+	<mpeg7:DescriptionMetadata>
+		<mpeg7:PrivateIdentifier>Downton.Abbey.3x02.HDTV.x264-FoV.mp4</mpeg7:PrivateIdentifier>
+		<mpeg7:CreationTime>2014-07-08T05:39:37+00:00</mpeg7:CreationTime>
+		<mpeg7:Instrument>
+			<mpeg7:Tool>
+				<mpeg7:Name>MediaInfoLib - v0.7.69</mpeg7:Name>
+			</mpeg7:Tool>
+		</mpeg7:Instrument>
+	</mpeg7:DescriptionMetadata>
+	<mpeg7:Description xsi:type="ContentEntityType">
+		<mpeg7:MultimediaContent xsi:type="AudioVisualType">
+			<mpeg7:AudioVisual>
+				<mpeg7:MediaInformation>
+					<mpeg7:MediaProfile>
+						<mpeg7:MediaFormat>
+							<mpeg7:Content href="urn:mpeg:mpeg7:cs:ContentCS:2001:2">
+								<mpeg7:Name xml:lang="en">Audiovisual</mpeg7:Name>
+							</mpeg7:Content>
+							<mpeg7:FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001:5">
+									<mpeg7:Name xml:lang="en">mp4</mpeg7:Name>
+							</mpeg7:FileFormat>
+							<mpeg7:FileSize>280746748</mpeg7:FileSize>
+							<mpeg7:BitRate variable="true">792043</mpeg7:BitRate>
+							<mpeg7:VisualCoding>
+								<mpeg7:Format colorDomain="color">
+									<mpeg7:Name xml:lang="en">AVC</mpeg7:Name>
+								</mpeg7:Format>
+								<mpeg7:Pixel aspectRatio="1.000" bitsPer="8"/>
+								<mpeg7:Frame aspectRatio="1.773" height="406" width="720" rate="25.000" structure="progressive"/>
+								<mpeg7:ColorSampling> <!-- YUV 4:2:0 Interlaced -->
+									<mpeg7:Lattice height="720" width="486"/>
+									<mpeg7:Field temporalOrder="0" positionalOrder="0">
+										<mpeg7:Component>
+											<mpeg7:Name>Luminance</mpeg7:Name>
+											<mpeg7:Offset horizontal="0.0" vertical="0.0"/>
+											<mpeg7:Period horizontal="1.0" vertical="2.0"/>
+										</mpeg7:Component>
+										<mpeg7:Component>
+											<mpeg7:Name>ChrominanceBlueDifference</mpeg7:Name>
+											<mpeg7:Offset horizontal="0.0" vertical="0.5"/>
+											<mpeg7:Period horizontal="2.0" vertical="4.0"/>
+										</mpeg7:Component>
+										<mpeg7:Component>
+											<mpeg7:Name>ChrominanceRedDifference</mpeg7:Name>
+											<mpeg7:Offset horizontal="0.0" vertical="0.5"/>
+											<mpeg7:Period horizontal="2.0" vertical="4.0"/>
+										</mpeg7:Component>
+									</mpeg7:Field>
+									<mpeg7:Field temporalOrder="1" positionalOrder="1">
+										<mpeg7:Component>
+											<mpeg7:Name>Luminance</mpeg7:Name>
+											<mpeg7:Offset horizontal="0.0" vertical="1.0"/>
+											<mpeg7:Period horizontal="1.0" vertical="2.0"/>
+										</mpeg7:Component>
+										<mpeg7:Component>
+											<mpeg7:Name>ChrominanceBlueDifference</mpeg7:Name>
+											<mpeg7:Offset horizontal="0.0" vertical="2.5"/>
+											<mpeg7:Period horizontal="2.0" vertical="4.0"/>
+										</mpeg7:Component>
+										<mpeg7:Component>
+											<mpeg7:Name>ChrominanceRedDifference</mpeg7:Name>
+											<mpeg7:Offset horizontal="0.0" vertical="2.5"/>
+											<mpeg7:Period horizontal="4.0" vertical="2.0"/>
+										</mpeg7:Component>
+									</mpeg7:Field>
+								</mpeg7:ColorSampling>
+							</mpeg7:VisualCoding>
+							<mpeg7:AudioCoding>
+								<mpeg7:Format>
+									<mpeg7:Name xml:lang="en">AAC</mpeg7:Name>
+								</mpeg7:Format>
+								<mpeg7:AudioChannels>2</mpeg7:AudioChannels>
+								<mpeg7:Sample rate="48000"/>
+								<mpeg7:Presentation href="urn:mpeg:mpeg7:cs:AudioPresentationCS:2001:3">
+									<mpeg7:Name>stereo</mpeg7:Name>
+								</mpeg7:Presentation>
+							</mpeg7:AudioCoding>
+						</mpeg7:MediaFormat>
+					</mpeg7:MediaProfile>
+				</mpeg7:MediaInformation>
+				<mpeg7:MediaTime>
+					<mpeg7:MediaTimePoint>T00:00:00:0F1000</mpeg7:MediaTimePoint>
+					<mpeg7:MediaDuration>PT0H47M15S12N25F</mpeg7:MediaDuration>
+				</mpeg7:MediaTime>
+			</mpeg7:AudioVisual>
+		</mpeg7:MultimediaContent>
+	</mpeg7:Description>
+</mpeg7:Mpeg7>
